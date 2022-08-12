@@ -10,7 +10,8 @@ document.addEventListener("DOMContentLoaded", (event) =>
     function updateimages() 
     {
         image = document.getElementsByTagName('img')[getRandomInt(0,25)]
-        fetch('https://picsum.photos/1920/1080').then(function(response)
+        //fetch('https://picsum.photos/1920/1080').then(function(response)
+        fetch('https://picsum.photos/900/500').then(function(response)
         {
             image.animate([
             {
